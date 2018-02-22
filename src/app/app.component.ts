@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  public title = 'Mi nueva app';
+  public description = 'Curso de introdución a Angular 5. Si no indicamos nada, las propiedades son públicas. La extensión .ts hace referencia a TypeScript';
 }
